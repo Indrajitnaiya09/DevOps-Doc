@@ -1,0 +1,58 @@
+1.switch to root:
+    sudo su - root
+    apt-get update [for update, but if you are not root user it won't work]
+    ls -> list file
+    
+
+2.create two groups DevOps and developer
+3.use visudo for permissions
+4.devops should have all permission and also can execute any command where the developer can execute only read-only commands like ls, cat, etc
+5.useradd in one shot by adding to the primary group with physically create directory, bash access(one user is john for DevOps and Shane for developer)
+6.setup password for both user
+7.create one directory in the root that directory can have read access for only DevOps, not developer group
+8.ssh login:- only Shane can log in to Shane user and john can log in to john user but they should not switch to other users.
+9.what is the command to become root and define it.
+    sudo su - root
+
+10.command to check what is the user
+    whoami
+
+11.define to know which current directory.
+    pwd
+
+12.cmd to create a file.
+    touch hello.txt
+
+12.1 cmd to display file contain
+    cat hello.txt
+
+12.2 from where all the cmd coming from?
+    all present under bin/
+
+13.types of editors.
+14.how to check executable commands are getting from which directory.
+15.how to identify hidden files in Linux.
+    ls -al -> list all file include hidden file.
+
+16.what is man does.
+    man will open manual book such as man ls.
+
+17.command to copy files from a directory recursively.
+    cp -> copy file.
+    cp -r -> copy directory recursively.
+
+18.command to rename a file.
+19.commad to move files and directory.
+    mv
+20.command to download files from the internet.
+21.what is su.
+22.command to install deb files.
+23.what is deb files?
+24.what is apt?
+25.where apt repository persists in Linux.
+26.define apt-get update.
+27.what are executable commands in Linux.
+28.what is $PATH.
+29.what is .bashrc
+30.what is id_rsa.pub and id_rsa
+31..where above two key are located in directory
