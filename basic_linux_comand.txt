@@ -53,6 +53,8 @@
 26.define apt-get update.
 27.what are executable commands in Linux.
 28.what is $PATH.
+    echo $PATH is explicitly giving a command to display the contents of the $PATH variable.
+    
 29.what is .bashrc
 30.what is id_rsa.pub and id_rsa
 31..where above two key are located in directory
