@@ -42,6 +42,8 @@
     cp -r -> copy directory recursively.
 
 18.command to rename a file.
+    mv [OPTIONS] source destination
+    
 19.commad to move files and directory.
     mv
 20.command to download files from the internet.
@@ -54,7 +56,7 @@
 27.what are executable commands in Linux.
 28.what is $PATH.
     echo $PATH is explicitly giving a command to display the contents of the $PATH variable.
-    
+
 29.what is .bashrc
 30.what is id_rsa.pub and id_rsa
 31..where above two key are located in directory
