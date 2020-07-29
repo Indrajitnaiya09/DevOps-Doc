@@ -51,7 +51,9 @@
     The Linux command 'su' is used to switch from one account to another(Switch User).
 
 22.command to install deb files.
+    
 23.what is deb files?
+    deb is used to signify a collection of files managed by the Debian packages management system.
 24.what is apt?
     apt is a command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions.
 25.where apt repository persists in Linux.
