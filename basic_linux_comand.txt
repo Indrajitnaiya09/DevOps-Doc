@@ -81,5 +81,6 @@
     echo $PATH is explicitly giving a command to display the contents of the $PATH variable.
 
 29.what is .bashrc
+    The . bashrc file is a script that is executed whenever a new terminal session is started in interactive mode. This is what happens when you open a new terminal window by pressing Ctrl + Alt + T , or just open a new terminal tab
 30.what is id_rsa.pub and id_rsa
 31..where above two key are located in directory
