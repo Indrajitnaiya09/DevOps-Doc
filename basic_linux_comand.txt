@@ -43,11 +43,13 @@
 
 18.command to rename a file.
     mv [OPTIONS] source destination
-    
+
 19.commad to move files and directory.
     mv
 20.command to download files from the internet.
 21.what is su.
+    The Linux command 'su' is used to switch from one account to another(Switch User).
+    
 22.command to install deb files.
 23.what is deb files?
 24.what is apt?
