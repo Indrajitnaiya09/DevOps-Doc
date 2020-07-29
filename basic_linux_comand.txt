@@ -52,7 +52,7 @@
     wget URL
     or 
     wget -r URL
-    
+
 21.what is su.
     The Linux command 'su' is used to switch from one account to another(Switch User).
 
@@ -66,10 +66,16 @@
     
 23.what is deb files?
     deb is used to signify a collection of files managed by the Debian packages management system.
+
 24.what is apt?
     apt is a command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions.
+
 25.where apt repository persists in Linux.
+    /etc/apt/sources
+
 26.define apt-get update.
+    Download and update file from the internet whatever mention under /etc/apt/source
+
 27.what are executable commands in Linux.
 28.what is $PATH.
     echo $PATH is explicitly giving a command to display the contents of the $PATH variable.
