@@ -49,10 +49,11 @@
 20.command to download files from the internet.
 21.what is su.
     The Linux command 'su' is used to switch from one account to another(Switch User).
-    
+
 22.command to install deb files.
 23.what is deb files?
 24.what is apt?
+    apt is a command-line utility for installing, updating, removing, and otherwise managing deb packages on Ubuntu, Debian, and related Linux distributions.
 25.where apt repository persists in Linux.
 26.define apt-get update.
 27.what are executable commands in Linux.
