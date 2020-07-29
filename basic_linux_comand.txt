@@ -51,6 +51,12 @@
     The Linux command 'su' is used to switch from one account to another(Switch User).
 
 22.command to install deb files.
+    sudo dpkg -i /path/to/deb/file
+    sudo apt-get install -f
+
+    sudo apt install ./name.deb
+    Or
+    sudo apt install /path/to/package/name.deb
     
 23.what is deb files?
     deb is used to signify a collection of files managed by the Debian packages management system.
