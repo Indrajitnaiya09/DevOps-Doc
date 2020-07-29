@@ -47,6 +47,12 @@
 19.commad to move files and directory.
     mv
 20.command to download files from the internet.
+    sudo apt-get install wget
+    yum install wget
+    wget URL
+    or 
+    wget -r URL
+    
 21.what is su.
     The Linux command 'su' is used to switch from one account to another(Switch User).
 
