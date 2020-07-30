@@ -5,17 +5,23 @@
     
 
 2.create two groups DevOps and developer
+    sudo groupadd DevOps
+    sudo groupadd developer
+    
 2.1 create 2 user Indrajit and Deepak
     sudo useradd Indrajit
     sudo useradd Deepak
 
 2.2. How to add password
     sudo passwd Indrajit then you will be asking to set password
-    
+
 3.use visudo for permissions
 4.devops should have all permission and also can execute any command where the developer can execute only read-only commands like ls, cat, etc
 5.useradd in one shot by adding to the primary group with physically create directory, bash access(one user is john for DevOps and Shane for developer)
 6.setup password for both user
+    sudo passwd Indrajit
+    sudo passwd Deepak
+    
 7.create one directory in the root that directory can have read access for only DevOps, not developer group
 8.ssh login:- only Shane can log in to Shane user and john can log in to john user but they should not switch to other users.
 9.what is the command to become root and define it.
