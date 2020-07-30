@@ -5,6 +5,10 @@
     
 
 2.create two groups DevOps and developer
+2.1 create 2 user Indrajit and Deepak
+    sudo useradd Indrajit
+    sudo useradd Deepak
+    
 3.use visudo for permissions
 4.devops should have all permission and also can execute any command where the developer can execute only read-only commands like ls, cat, etc
 5.useradd in one shot by adding to the primary group with physically create directory, bash access(one user is john for DevOps and Shane for developer)
