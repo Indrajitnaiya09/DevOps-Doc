@@ -121,8 +121,11 @@
 
 38.command to add the password to the user.
     sudo passwd Indrajit
-    
+
 39.command to view the sudoers file.
+    The sudoers file is located at /etc/sudoers. And you should not edit it directly, you need to use the visudo command.
+    root    ALL=(ALL) ALL
+    
 40.command to change ownership and group of file/directory.
 41.explain 4,2,1,0 in Linux
 42.write command to change permission for the user group and other let's say read for the user, execute for the group, and nothing for others.
