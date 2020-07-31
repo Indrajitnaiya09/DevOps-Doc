@@ -105,11 +105,14 @@
 32.command to create use with one shot including group, user, directory and bash
 33.command to add the group.
     sudo groupadd DevOps
-    
+
 34.command to add the user.
     sudo useradd Indrajit
 
 35.command to delete the group.
+    sudo groupdel DevOps
+    or 
+    sudo delgroup DevOps
 
 36.command to delete user.
 38.command to add the password to the user.
