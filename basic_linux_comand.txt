@@ -104,6 +104,8 @@
 
 32.command to create use with one shot including group, user, directory and bash
 33.command to add the group.
+    sudo groupadd DevOps
+    
 34.command to add the user.
     sudo useradd Indrajit
 
