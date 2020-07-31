@@ -21,7 +21,7 @@
 6.setup password for both user
     sudo passwd Indrajit
     sudo passwd Deepak
-    
+
 7.create one directory in the root that directory can have read access for only DevOps, not developer group
 8.ssh login:- only Shane can log in to Shane user and john can log in to john user but they should not switch to other users.
 9.what is the command to become root and define it.
@@ -101,3 +101,14 @@
 
 31..where above two key are located in directory
     both the file store under ~/.ssh/ folder structure.
+
+32.command to create use with one shot including group, user, directory and bash
+33.command to add the group.
+34.command to add the user.
+35.command to delete the group.
+36.command to delete user.
+38.command to add the password to the user.
+39.command to view the sudoers file.
+40.command to change ownership and group of file/directory.
+41.explain 4,2,1,0 in Linux
+42.write command to change permission for the user group and other let's say read for the user, execute for the group, and nothing for others.
