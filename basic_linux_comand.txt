@@ -115,6 +115,10 @@
     sudo delgroup DevOps
 
 36.command to delete user.
+    deluser --remove-home Indrajit
+    or 
+    userdel --remove Indrajit
+    
 38.command to add the password to the user.
 39.command to view the sudoers file.
 40.command to change ownership and group of file/directory.
