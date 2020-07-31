@@ -105,7 +105,10 @@
 32.command to create use with one shot including group, user, directory and bash
 33.command to add the group.
 34.command to add the user.
+    sudo useradd Indrajit
+
 35.command to delete the group.
+
 36.command to delete user.
 38.command to add the password to the user.
 39.command to view the sudoers file.
