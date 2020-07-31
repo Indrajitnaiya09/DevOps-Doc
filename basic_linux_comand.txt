@@ -118,8 +118,10 @@
     deluser --remove-home Indrajit
     or 
     userdel --remove Indrajit
-    
+
 38.command to add the password to the user.
+    sudo passwd Indrajit
+    
 39.command to view the sudoers file.
 40.command to change ownership and group of file/directory.
 41.explain 4,2,1,0 in Linux
