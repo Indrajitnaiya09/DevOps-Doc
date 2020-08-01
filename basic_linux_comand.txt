@@ -136,6 +136,59 @@
     By default, on success, chown doesn’t produce any output and returns zero.
 
     chown 1000 file2
-    
+
 41.explain 4,2,1,0 in Linux
+    r  w  x
+    4  2  1
+
+     r   -   read
+     w   -   write
+     x   -   execute = running a program
+
+     u   -    user = yourself
+     g   -    group = can be people in the same project
+     o   -    other = everyone on the system
+
+     0   =   no permissions
+     1   =   execute only
+     2   =   write only
+     3   =   write and execute (1+2)
+     4   =   read only
+     5   =   read and execute (4+1)
+     6   =   read and write (4+2)
+     7   =   read and write and execute (4+2+1)
+
+     owner read (r)
+     owner write (w)
+     owner execute (x)
+        group read (r)
+        group write (w)
+        group execute (x)
+           public read (r)
+           public write (w)
+           public execute (x)
+
+     which are displayed as:        -rwxrwxrwx
+
+                                user    group   others
+ 
+        chmod 640 file1          rw-     r--     ---
+        chmod 754 file1          rwx     r-x     r--
+        chmod 664 file1          rw-     rw-     r--
+
+
+         Octal number             Access permissions given
+         0                    rwx     read, write and
+                                      execute
+         1                    rw-     read and write
+         2                    r-x     read and execute
+         3                    r--     read only
+         4                    -wx     write and execute
+         5                    -w-     write only
+         6                    --x     execute only
+         7                    ---     no permissions
+         
+     
+     
+
 42.write command to change permission for the user group and other let's say read for the user, execute for the group, and nothing for others.
