@@ -43,6 +43,9 @@
     all present under bin/
 
 13.types of editors.
+    commandline editors – vi, nano, pico
+    GUI editors – gedit (for GNOME), KWrite (for KDE)
+    
 14.how to check executable commands are getting from which directory.
 15.how to identify hidden files in Linux.
     ls -al -> list all file include hidden file.
@@ -187,7 +190,7 @@
          5                    -w-     write only
          6                    --x     execute only
          7                    ---     no permissions
-         
+
      
      
 
