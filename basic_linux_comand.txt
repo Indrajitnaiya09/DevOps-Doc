@@ -125,7 +125,17 @@
 39.command to view the sudoers file.
     The sudoers file is located at /etc/sudoers. And you should not edit it directly, you need to use the visudo command.
     root    ALL=(ALL) ALL
-    
+
 40.command to change ownership and group of file/directory.
+    chown [OPTIONS] USER[:GROUP] FILE(s)
+    USER - If only the user is specified, the specified user will become the owner of the given files, the group ownership is not changed.
+    USER: - When the username is followed by a colon :, and the group name is not given, the user will become the owner of the files, and the files group ownership is changed to user’s login group.
+    USER:GROUP - If both the user and the group are specified (with no space betwen them), the user ownership of the files is changed to the given user and the group ownership is changed to the given group.
+    :GROUP - If the User is omitted and the group is prefixed with a colon :, only the group ownership of the files is changed to the given group.
+    : If only a colon : is given, without specifying the user and the group, no change is made.
+    By default, on success, chown doesn’t produce any output and returns zero.
+
+    chown 1000 file2
+    
 41.explain 4,2,1,0 in Linux
 42.write command to change permission for the user group and other let's say read for the user, execute for the group, and nothing for others.
