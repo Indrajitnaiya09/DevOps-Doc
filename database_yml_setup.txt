@@ -1,0 +1,8 @@
+production:
+ adapter: postgresql
+ encoding: unicode
+ database: gst_report_gen       
+ host: localhost
+ pool: 5
+ username: gst  
+ password: 8421
