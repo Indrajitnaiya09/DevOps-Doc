@@ -1,0 +1,12 @@
+1. what is ci/cd ?
+
+    A CI/CD or Continuous Integration/Continuous Deployment pipeline implementation helps to automate steps in the software delivery process such as initiating code builds, running automated tests, and deploying to a staging or production environment.
+
+    CI, short for continuous integration, is a software development practice in which all developers merge code changes in a central repository multiple times a day.
+
+    CD stands for continuous delivery which, on top of continuous integration, adds the practice of automating the entire software release process.
+
+    Continuous integration and continuous delivery require continuous testing because the objective is to deliver quality applications and code to users. Continuous testing is often implemented as a set of automated regression, performance, and other tests that are executed in the CI/CD pipeline.
+
+
+    Build -> Test -> Deploy
