@@ -10,3 +10,16 @@
 
 
     Build -> Test -> Deploy
+
+2. Advantages of implementing a CI/CD pipeline
+    Developers don’t have to worry about runtime configurations in their code since those are already configured.
+
+    Testers can see what tests have been automatically run and then automate more, investigate trouble areas, or simply spend their time on the new functionality to validate it against client requirements.
+
+    Operations can redeploy if something isn’t working inside an application.
+
+    Introducing new versions or bug fixes is the same routine process.
+
+    The velocity of deployments is increased, and new features reach the production stage much faster.
+
+    The most popular automation tools are Jenkins (formerly Hudson), CircleCI, CodeSHIP, and Shippable.
