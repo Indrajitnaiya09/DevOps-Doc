@@ -56,3 +56,17 @@
 
 2. what is Registrar?
     A domain name registrar is a business that handles the reservation of domain names as well as the assignment of IP addresses for those domain names. Domain names are alphanumeric aliases used to access websites; for example Google’s domain name is ‘google.com’ and their IP address is 192.168.1.1. Domain names make it easier to access websites without having to memorize and enter numeric IP addresses
+
+    It should be noted that registrars don’t actually manage and maintain domain names; that part is done by a domain name registry.
+
+3. What’s the difference between a registrar and a registry?
+    Registries are organizations that manage top-level domains (TLDs) such as domains ending in ‘.com’ and ‘.net’. These registries are managed by the Internet Assigned Numbers Authority (IANA), a department of the Internet Corporation for Assigned Names and Numbers (ICANN).
+
+    Registries delegate the commercial sales of domain name registrations to registrars. For example, VeriSign is the registry for ‘.com’ domains. When a registrar sells a ‘.com’ domain registration to a user, the registrar must notify VeriSign in order to properly reserve the domain. The registrar must also pay VeriSign a fee, which is factored into the price that the registrar charges the end user.
+
+    It's much like a car dealership. A customer who is interested in buying a car steps into the showroom and is shown the available cars by a knowledgeable sales associate. If the customer chooses to buy a car (not one already in stock, for this example), the dealership must then order the car from a manufacturer. The customer ultimately picks up the car and receives customer service from the dealership.
+
+    A registrar is like a dealership for domain names, and the registry is like the manufacturer. The registrar facilitates the transactions and provides support services, while the registry is in charge of producing and delivering the goods. It should be noted that a key difference between registering a domain and buying a car is that cars can be owned by consumers, domain names cannot.
+
+    link: 
+    https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/#:~:text=A%20domain%20name%20registrar%20is,addresses%20for%20those%20domain%20names.
