@@ -77,3 +77,21 @@
     A great simple way to think about name servers is using a phone book analogy. If you were trying to call InMotion Hosting you might have remembered our phone number, but more than likely you’d want to look it up before just guessing at numbers.
 
     This same story is also true for the Internet and domain names. As an example you’re reading this article right now on our InMotionHosting.com domain name.
+
+5. what is DNS manager?
+    All of your domains are listed under the Domains heading. To access your Domain’s DNS records, click the name of a Domain.
+
+    Click the name of a domain to add or edit its DNS records. When you add a domain, the Cloud Manager will automatically create a zone file for your Domain. Before you can add any DNS records, you must add a domain.
+
+    Note
+    A domain zone is a collection of DNS records for a single domain name. Creating a domain also creates its corresponding domain zone. Linode’s APIv4, which is the backbone of the Cloud Manager, will validate the created zone file for any errors.
+
+    The term domain zone becomes synonymous with the term domain, both in terms of use and administration.
+
+    If you have a zone that can be exported from a server or another hosting provider, click Import a Zone to import it.
+
+    Click Add a Domain to create a new domain zone.
+
+    Click on the more options ellipsis to corresponding to a domain zone to edit DNS records within a zone, clone an existing zone, or remove a zone.
+
+    link: https://www.linode.com/docs/platform/manager/dns-manager/
