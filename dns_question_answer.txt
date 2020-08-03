@@ -1,0 +1,55 @@
+1. How DNS works?
+    Domain Names: 
+    A domain name is a human-readable name—like amazon.com—that we type in a web browser URL field. The Internet Corporation for Assigned Names and Numbers (ICANN) manages  these domain names
+
+    Top Level Domain (TLD):
+    TLD refers to the last part of a domain name. For example, the .com in amazon.com is the Top Level Domain. The most common TLDs include .com, .net, org, and .info. Country code TLDs represent specific geographic locations. For example: .in represents India. Here are some more examples:
+
+    com – Commercial businesses.
+    gov – U.S. government agencies.
+    edu – Educational institutions such as universities.
+    org – Organizations (mostly non-profit).
+    mil – Military.
+    net – Network organizations.
+    eu – European Union.
+    Second Level Domain
+    This is the part of a domain name which comes right before the TLD—amazon.com—for example.
+
+    Sub Domain:
+    A subdomain can be created to identify unique content areas of a web site. For example, the aws of aws.amazon.com.
+
+    Domain Name Registrar:
+    By managing domain name reservations, name registrars are critical to how DNS works. ICANN currently grants permission to organizations to act as domain name registrars for specific higher level domains.
+
+    Name Server:
+    Like a phone book, the name server is a collection of domain names matched to IP addresses.
+
+    How DNS Works: Domain Name System record types
+    A Record
+    Address record. A Records map server IP addresses to domain names. For example, 72.21.206.6 to amazon.com.
+
+    CNAME
+    Canonical Name record. A CNAME record establishes one domain as an alias to another (thereby routing all traffic addressed to the alias to the target; the canonical address).
+
+    Alias Record
+    Like a CNAME record, Alias records can be used to map one address to another. But Aliases can coexist with other records using the same name.
+
+    MX Record
+    Mail Exchange Record. These records will redirect a domain’s email to the servers hosting the domain’s user accounts. Mail exchange records are used for determining the priority of email servers for a domain.
+
+    How DNS Works
+    When a user types a human-readable address into the browser, the operating system’s DNS client will check for information in a local cache. If the requested address isn’t there, it will look for a Domain Name System server in the local area network (LAN). When the local DNS server receives the query, and the requested domain name is found, it will return the result.
+
+    If the name is not found, the local server will forward the query to a DNS cache server, often provided by the Internet Service Provider (ISP). Since the DNS server’s cache contains a temporary store of DNS records, it will quickly respond to requests. These DNS cache servers are called not authoritative DNS servers as they provide request resolution based in a cached value acquired from authoritative DNS servers.
+
+    An Authoritative Root Name Server maintains and provides a list of authoritative name servers for each of the top-level domains (.com, .org, etc.).
+
+    An Authoritative Top Level Domain Name Server maintains and provides a list of authoritative name servers for all domains (gmail.com, wikipedia.org, etc.). Its job is to query name servers to find and return the authoritative name server for the requested domain.
+
+    Now that we’ve got a better idea of how DNS works, the next post will introduce you Amazon’s Route53 and show you how easy it can be to migrate your existing domains to it.
+
+    If you’re new to Amazon Route53, this is your go-to course Working with AWS’s Domain Name System: Amazon Route 53
+
+    link:
+        https://cloudacademy.com/blog/how-dns-works/
+        https://www.verisign.com/en_IN/website-presence/online/how-dns-works/index.xhtml
