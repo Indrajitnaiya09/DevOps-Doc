@@ -70,3 +70,10 @@
 
     link: 
     https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/#:~:text=A%20domain%20name%20registrar%20is,addresses%20for%20those%20domain%20names.
+
+4. what is NameServer?
+    A name server is a specialized server on the Internet that handles queries or questions from your local computer, about the location of a domain name’s various services.
+
+    A great simple way to think about name servers is using a phone book analogy. If you were trying to call InMotion Hosting you might have remembered our phone number, but more than likely you’d want to look it up before just guessing at numbers.
+
+    This same story is also true for the Internet and domain names. As an example you’re reading this article right now on our InMotionHosting.com domain name.
