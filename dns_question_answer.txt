@@ -95,3 +95,6 @@
     Click on the more options ellipsis to corresponding to a domain zone to edit DNS records within a zone, clone an existing zone, or remove a zone.
 
     link: https://www.linode.com/docs/platform/manager/dns-manager/
+
+6. what is the port of DNS?
+    A DNS server uses well-known port 53 for all its UDP activities and as its server port for TCP. It uses a random port above 1023 for TCP requests. A DNS client uses a random port above 1023 for both UDP and TCP.
