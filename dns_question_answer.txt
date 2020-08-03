@@ -53,3 +53,6 @@
     link:
         https://cloudacademy.com/blog/how-dns-works/
         https://www.verisign.com/en_IN/website-presence/online/how-dns-works/index.xhtml
+
+2. what is Registrar?
+    A domain name registrar is a business that handles the reservation of domain names as well as the assignment of IP addresses for those domain names. Domain names are alphanumeric aliases used to access websites; for example Google’s domain name is ‘google.com’ and their IP address is 192.168.1.1. Domain names make it easier to access websites without having to memorize and enter numeric IP addresses
