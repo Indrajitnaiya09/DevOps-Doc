@@ -124,3 +124,12 @@
     A: This is a user’s home computer
     B: This is a forward proxy server
     C: This is a website’s origin server (where the website data is stored)
+
+10: What is Propagation and How Long Does it Take?
+    Name server changes usually take 24 to 48 hours to fully start working. This period, called propagation, is the projected length of time it takes for root name servers and cache records across the entire web to be updated with your website's DNS information. Because of propagation, not all visitors will be directed to your new name servers on your new hosting account; some visitors will continue to be directed to your old name servers on your old hosting account until propagation is complete.
+
+    How quickly visitors are directed to the new name servers depends on their physical location, internet service provider and some luck; it is not something HostGator has control over. Once propagation is complete, your site will appear on our server and your email will be fully functional.
+
+    There is no definitive way to tell when propagation is complete. During the first 48 hours, even if you are able to see your site on the new server, your next door neighbor might still be seeing the site on the old server.
+
+    link: https://www.hostgator.com/help/article/when-will-my-domain-start-working-propagation
