@@ -149,3 +149,19 @@
     Overseeing the entire domain name system is the Internet Corporation for Assigned Names and Numbers, or ICANN. ICANN is a non-profit organization responsible for coordinating domain names, IP addresses and DNS. They make sure IP addresses and domains are unique so we can avoid duplicates. They also accredit registrars so they can offer domains to register.
 
     link: https://in.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039
+
+13. What's the difference between domain forwarding and masking?
+    Domain forwarding (sometimes called connecting, pointing or redirecting) lets you automatically direct your domain's visitors to a different location on the web. If your domain is registered with GoDaddy and you use our nameservers, you can forward your GoDaddy domain to a site you've created with Wix, Wordpress or any other URL.
+
+    Domain forwarding has two options: forwarding only and forwarding with masking. Both options will redirect your visitors, but forwarding with masking has additional features you can use.
+
+    Forwarding only
+    Redirects visitors to a destination URL of your choosing
+    Keeps the destination URL in the browser address bar
+    Example: Assign coolexample.com to forward only to coolwebsite.net. When a visitor types coolexample.com in a browser address bar, they will be redirected to the site for coolwebsite.net. The browser address bar will update to show coolwebsite.net.
+
+    Forwarding with masking
+    Redirects visitors to a destination URL of your choosing
+    Keeps your domain name in the browser address bar
+    Allows you to enter meta-tags for search engine information
+    Example: Assign coolexample.com to forward with masking to coolwebsite.net. When a visitor types coolexample.com in a browser address bar, they will be redirected to the site for coolwebsite.net. The browser address bar will continue to show coolexample.com, effectively masking the destination URL.
