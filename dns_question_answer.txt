@@ -168,3 +168,12 @@
 
 14. What is TTL?
     DNS TTL (time to live) is a setting that tells the DNS resolver how long to cache a query before requesting a new one. The information gathered is then stored in the cache of the recursive or local resolver for the TTL before it reaches back out to collect new, updated details.
+
+15. What is Round Robin DNS?
+    Round Robin DNS is a method used for load distribution of DNS request against a domain name.
+
+    Suppose we have a domain w7cloud.com and it is configured Round Robin DNS which has two IP mapping to the same domain w7cloud.com as follow:
+
+    w7cloud.com 12.11.23.1
+    w7cloud.com 12.11.23.2
+    The DNS request will go to 12.11.23.1 and second goes to 12.11.23.2.
