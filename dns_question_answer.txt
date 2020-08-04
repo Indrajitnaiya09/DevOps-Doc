@@ -177,3 +177,9 @@
     w7cloud.com 12.11.23.1
     w7cloud.com 12.11.23.2
     The DNS request will go to 12.11.23.1 and second goes to 12.11.23.2.
+
+16. What are the different types of DNS Server ?
+    Primary Master : The authoritative server where the master copy of the zone data is maintained is called the primary master server, or simply the primary. Typically it loads the zone contents from some local file edited by humans or perhaps generated mechanically from some other local file which is edited by humans. This file is called the zone file or master file.
+    Slave Server :  The other authoritative servers, the slave servers (also known as secondary servers) load the zone contents from another server using a replication process known as a zone transfer. Typically the data are transferred directly from the primary master, but it is also possible to transfer it from another slave. In other words, a slave server may itself act as a master to a subordinate slave server.
+    Caching Name Server : Caching Name server is not authoritative for any zone, all queries are forwarded to other DNS servers if they are not stored in the DNS-cache zone. Answers for all queries are cached in DNS-cache zone for a time.
+    Forwarding : In this type of DNS server , all queries are forwarded to a specific list of name servers
