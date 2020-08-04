@@ -136,3 +136,16 @@
 
 11. what is registry?
     A domain name registry is a database of all domain names and the associated registrant information in the top level domains of the Domain Name System (DNS) of the Internet that enables third party entities to request administrative control of a domain name.
+
+12. What is the difference between a registry, registrar and registrant?
+    There are three different roles involved in the domain name registration process: The registry, registrar and registrant.
+
+    Registry: A domain name registry is an organization that manages top-level domain names. They create domain name extensions, set the rules for that domain name, and work with registrars to sell domain names to the public. For example, VeriSign manages the registration of .com domain names and their domain name system (DNS).
+
+    Registrar: The registrar is an accredited organization, like GoDaddy, that sells domain names to the public. Some have the ability to sell top-level domain names (TLDs) like .com, .net and .org, or country-code top-level domain names (ccTLDs) such as .us, .ca and .eu.
+
+    Registrant: A registrant is the person or company who registers a domain name. Registrants can manage their domain name’s settings through their registrar. When changes are made to the domain name, their registrar will communicate the changes to the registry to be updated in the registry’s database. When you register a domain name, you become a registrant!
+
+    Overseeing the entire domain name system is the Internet Corporation for Assigned Names and Numbers, or ICANN. ICANN is a non-profit organization responsible for coordinating domain names, IP addresses and DNS. They make sure IP addresses and domains are unique so we can avoid duplicates. They also accredit registrars so they can offer domains to register.
+
+    link: https://in.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039
