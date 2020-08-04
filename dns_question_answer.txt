@@ -165,3 +165,6 @@
     Keeps your domain name in the browser address bar
     Allows you to enter meta-tags for search engine information
     Example: Assign coolexample.com to forward with masking to coolwebsite.net. When a visitor types coolexample.com in a browser address bar, they will be redirected to the site for coolwebsite.net. The browser address bar will continue to show coolexample.com, effectively masking the destination URL.
+
+14. What is TTL?
+    DNS TTL (time to live) is a setting that tells the DNS resolver how long to cache a query before requesting a new one. The information gathered is then stored in the cache of the recursive or local resolver for the TTL before it reaches back out to collect new, updated details.
